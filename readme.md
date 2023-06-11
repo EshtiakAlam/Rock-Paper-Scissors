@@ -29,5 +29,5 @@ This is a simple web application for playing the game of Rock Paper Scissors.
 
 ## Screenshot
 
-![Screenshot](.\images\ss.png)
+![Screenshot](./images/ss.png)
 

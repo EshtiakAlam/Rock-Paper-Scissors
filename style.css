@@ -1,0 +1,78 @@
+body,button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    flex:1;
+    margin-top: 32px;
+    font-family: 'Mali', cursive;
+
+}
+
+h1{
+    font-size: 2rem;
+}
+
+p, button{
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+.buttons,.footer,.scoreboard{
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+    justify-content: center; /* Center the buttons */
+    gap: 32px;
+    margin: 16px 0;
+}
+.result{
+    text-align: center;
+}
+
+
+button {
+    background-color: white;
+    border: none;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 16px;
+    flex-grow: 1;/* Allow buttons to grow and fill the available space */
+    max-width: 200px; /* Limit maximum button width */
+}
+
+img{
+    width: 100%; /* Make images responsive */
+    max-width: 200px; /* Limit maximum image width */
+}
+#astroboy{
+    width: 32px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+button{
+    gap: 16px;
+    background-color: white;
+    border: none;
+    padding: 32px;
+    border-radius: 16px;
+    margin: 16px;
+}
+
+button:hover{
+    background-color: gainsboro;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 60px;
+}
